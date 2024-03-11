@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sell Stocks</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sell Stocks</h1>
+        <form action="/sell" method="POST">
+            <div class="form-group">
+                <label for="user">User Name</label>
+                <input type="text" id="user" name="user" placeholder="Enter user name" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Stock Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter stock name" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter the amount" required>
+            </div>
+            <button type="submit" class="btn">Sell</button>
+        </form>
+    </div>
+</body>
+</html>
